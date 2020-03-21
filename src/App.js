@@ -1,18 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Router from './Router.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Git Projects
-        </p>
-      </header>
+    <div>
+      <Router/>
     </div>
   );
 }
 
-export default App;
+export default App
